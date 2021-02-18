@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(to right,#fff 50%,#FFE143 50%) no-repeat;
+}
+nav ul li a{
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+}
+label {
+    font-size: 38px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+@media (max-width:968px) {
+    nav ul li a{
+        display: none;
+    }
+    label {
+        font-size: 2rem;
+        margin-left: -2.8rem;
+    }
+}
+/*Image Section*/
+.img {
+    display: block;
+    margin-left: 40%;
+    margin-top: -25rem;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+    user-select: none;
+}
+.content {
+    width: 25%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.content span {
+    color: #068CF3;
+}
+.mail-btn button{
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    padding: 20px;
+    background: #4E4EFF;
+}
+.mail-btn a {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.content p {
+    font-size: 1.4rem;
+}
+.middle {
+    margin-bottom: 10rem;
+}
+.heading-projects h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #4E4EFF;
+    text-transform: uppercase;
+}
+.heading-projects span {
+    color: #ff8e43;
+}
+.projects {
+    background: linear-gradient(to right,#FFE143 50%,#fff 50%) no-repeat;
+}
+/**/
+.column {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.column {
+    margin: 2.5rem;
+}
+    .card {
+        border: 2px solid #707070;
+        padding: 2rem;
+        max-width: 300px;
+        margin: auto;
+        margin-left: 10px;
+        border-radius: 40px;
+        padding-bottom: 15px;
+        background: #fff;
+    }
+    .card h1 {
+        padding-bottom: 2rem;
+        font-size: 2.4rem;
+    }
+    a{
+        text-decoration: none;
+        font-size: 22px;
+    }
+.text-name {
+    margin-top: 1rem;
+    padding: 0.9px;
+    font-size: 1rem;
+}
+.card button {
+    padding-top: 2rem;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+    background: transparent;
+    font-weight: 600;
+}
+#project-display-two{
+    background: linear-gradient(to left,#FFE143 50%,#fff 50%);
+}
+
+@media (max-width:968px) {
+    body {
+        background: #FFE143 no-repeat;
+    }
+    .content  {
+        font-size: 5rem;
+        width: 100%;
+    }
+    .img img {
+        margin-top: 30rem;
+        margin-left: -6.9rem;
+        width: 320px;
+        float: left;
+    }
+    .img {
+        
+        width: 100%;
+    }
+    .projects {
+        margin-top: 42rem;
+        background: linear-gradient(to left,#fff 50%,#FFE143 50%) no-repeat;
+    }
+    button {
+        border-radius: 5px;
+    }
+    label {
+        margin-left: -4rem;
+    }
+}
+footer {
+    font-size: 2rem;
+    border-top: 2px solid gray;
+}
